@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NamasteReact</title>
+</head>
+<!-- 
+    WITH PLAIN HTML
+    <body>
+        <div id="root">
+            <h1>Hello World</h1>
+        </div>
+    
+    </body>
+    ***********NOW TRY THE SAME USING JS************
+-->
+<body>
+    <div id="root"></div>
+    <!--basically this js code below puts <h1>Hello World from Javascript</h1> inside  the root element-->
+    <script>
+        const heading = document.createElement('h1');
+        heading.innerHTML="Hello World from Javascript";
+        const root = document.getElementById('root');
+        root.appendChild(heading)
+
+    </script>
+    <!--basically this js code puts <h1>Hello World from Javascript</h1> inside  the root element-->
+</body>
+</html>
