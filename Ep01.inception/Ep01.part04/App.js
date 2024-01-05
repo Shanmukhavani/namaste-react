@@ -8,7 +8,8 @@ LETS ASSUME WE WANT TO CREATE THE FOLLOWING HTML STRUCTURE USING REACT
 </div>
 
 */}
-
+import React from "react";
+import ReactDOM from"react-dom/client";
 const parent =React.createElement(
     "div",
     {id:"parent"},
@@ -18,7 +19,7 @@ const parent =React.createElement(
         React.createElement(
             "h1",
             {},
-            "I'm h1 tag"
+            "I'm h1 tag without cdn!!!"
         )
     )
 
