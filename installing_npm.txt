@@ -1,0 +1,39 @@
+PS C:\Users\cvani\OneDrive\Desktop\namaste-react> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (namaste-react)
+version: (1.0.0)                                                                                                           
+description:                                                                                                               
+entry point: (index.js) App.js                                                                                             
+test command: jest                                                                                                         
+git repository:                                                                                                            
+keywords:                                                                                                                  
+author:                                                                                                                    
+license: (ISC)                                                                                                             
+About to write to C:\Users\cvani\OneDrive\Desktop\namaste-react\package.json:
+
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+PS C:\Users\cvani\OneDrive\Desktop\namaste-react> 
+
+THEN YOU CAN SEE A NEW package.json FILE Iis created
